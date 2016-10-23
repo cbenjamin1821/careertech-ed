@@ -1,2 +1,5 @@
 # careertech-ed
-Research related to postsecondary education and labor market outcomes for career and technical education high school students.
+This is my dissertation research related to postsecondary education and labor market outcomes for career and technical education high school students.
+The data comes from the Dept. of Ed. National Center for Education Statistics-Education Longitudinal Study of 2002 (ELS 2002).  The ELS 2002 is complex survey data that uses a two stage stratified sampling methodology.  I am using the balanced repeated replicate (BRR) weighting that involves 200 replicate weight variables due to the fact that I am using the public-use version of the data set.  The key strata variable for calculating standard errors using Taylor Series Linearization is suppressed on the public-use data set; hence, my use of the BRR weighting.
+I am using Lumley's Survey Package in R for my analyses and I have managed to match the published standard errors of the ELS 2002 data set, which ensures that my specifications of the BRR weights in my svyrepdesign object are accurate.
+I am new to R as well as a novice analyst, so I am seeking all of the guidance I can get!
